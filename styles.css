@@ -1,0 +1,13 @@
+header {
+    background-color: #1F2937;
+}
+.awesome, .header-logo {
+    color: #f9faf8;
+}
+.header-links, .header-blurb {
+    color: #88898b;
+}
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+}
