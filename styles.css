@@ -13,6 +13,8 @@ header {
 }
 button {
     background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
 }
 .header-bar {
     display: flex;
@@ -93,14 +95,47 @@ ul {
     font-style: italic;
     display: flex;
     flex-direction: column;
-    padding: 20%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 20%;
+    padding-right: 20%;
     justify-content: flex-end;
 }
 .quote {
     display: flex;
 }
 .quote-sig {
+    font-size: 28px;
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+}
+.call-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.blue-block {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    width: 70%;
+    height: 10%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6%;
+}   
+.call-action {
+    font-size: 20px;
+    font-weight: bold;
+}
+footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
 }
